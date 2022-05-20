@@ -9,6 +9,8 @@ const Todoitem = ({ todo, color, onDelete }) => {
 
     let checkedBox=(e)=>{
         setIscompleted(e.target.value)
+        setIscompleted(!iscompleted);    
+        // to uncheck do this
     }
 
     return (
