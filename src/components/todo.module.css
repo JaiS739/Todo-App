@@ -1,0 +1,38 @@
+.todo{
+    display: flex;
+}
+
+.todolist{
+    margin-left: 44%;
+    margin-top: 40px;
+}
+
+.checkboxy{
+    border-radius: 50% !important;
+    border:2px solid red !important;
+    padding: 5px;
+
+}
+
+.delete{
+    padding:0px 15px;
+    margin-left: 20px;
+}
+
+.flexy{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 25%;
+    margin: 10px 0;
+    
+}
+
+.addButton{
+    margin-left: 20px;
+}
+
+
+.strike{
+    text-decoration: line-through;
+}
